@@ -907,9 +907,9 @@ void rgblight_set(void) {
             led[i].r = 0;
             led[i].g = 0;
             led[i].b = 0;
-#    ifdef WS2812_RGBW
+#ifdef WS2812_RGBW
             led[i].w = 0;
-#    endif
+#endif
         }
     }
 
