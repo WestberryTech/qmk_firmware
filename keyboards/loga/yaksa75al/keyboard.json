@@ -30,6 +30,9 @@
             {"pin_a": "B7", "pin_b": "B6"}
         ]
     },
+    "dynamic_keymap": {
+        "layer_count": 5
+    },
     "matrix_pins": {
         "cols": ["A6", "C4", "C3", "C2", "C1", "C0", "B11", "B12", "C8", "C7", "C6", "C9", "B14", "B13", "A10"],
         "rows": ["A0", "A1", "A2", "A3", "A4", "C13"]
@@ -231,7 +234,6 @@
             "val": 60
         }
     },
-
     "url": "https://www.logaworld.com/",
     "usb": {
         "device_version": "0.0.1",

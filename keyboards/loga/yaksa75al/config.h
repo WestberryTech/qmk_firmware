@@ -23,10 +23,10 @@
 #define MD_DONGLE_PRODUCT                   "Yaksa75AL"
 
 /* Device Connection RGB Indicator Light Index And Color */
-#define HS_RGB_BLINK_INDEX_BT1              52
-#define HS_RGB_BLINK_INDEX_BT2              51
-#define HS_RGB_BLINK_INDEX_BT3              50
-#define HS_RGB_BLINK_INDEX_2G4              43
+#define HS_RGB_BLINK_INDEX_BT1              42
+#define HS_RGB_BLINK_INDEX_BT2              41
+#define HS_RGB_BLINK_INDEX_BT3              40
+#define HS_RGB_BLINK_INDEX_2G4              39
 
 #define HS_LBACK_COLOR_BT1                  RGB_BLUE
 #define HS_LBACK_COLOR_BT2                  RGB_BLUE
@@ -42,18 +42,18 @@
 /* Battery */
 #define BATTERY_CAPACITY_LOW                15
 #define BATTERY_CAPACITY_STOP               0
-#define RGB_MATRIX_BAT_INDEX_MAP            {16, 17, 18, 19, 20, 21, 22, 23, 24, 25}
+#define RGB_MATRIX_BAT_INDEX_MAP            {15, 16, 17, 18, 19, 20, 21, 22, 23, 24}
 
 /* Status Indicator Lamp */
 #define HS_MATRIX_BLINK_INDEX_BAT           2
 #define HS_RGB_INDEX_CAPS                   0
-#define HS_RGB_INDEX_WIN_LOCK               1
+#define HS_RGB_INDEX_WIN_LOCK               0
 #define HS_RGB_BLINK_INDEX_VAI              0
 #define HS_RGB_BLINK_INDEX_VAD              1
 #define HS_RGB_BLINK_INDEX_SPI              2
 
-#define HS_RGB_BLINK_INDEX_WIN              55
-#define HS_RGB_BLINK_INDEX_MAC              56
+#define HS_RGB_BLINK_INDEX_WIN              54
+#define HS_RGB_BLINK_INDEX_MAC              53
 
 /* UART */
 #define SERIAL_DRIVER                       SD3

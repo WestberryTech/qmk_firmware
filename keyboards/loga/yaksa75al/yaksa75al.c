@@ -489,15 +489,6 @@ bool process_record_kb(uint16_t keycode, keyrecord_t *record) {
 
             return false;
         } break;
-        case NK_TOGG: {
-            if (rgbrec_is_started()) {
-
-                return false;
-            }
-            if (record->event.pressed) {
-                rgb_matrix_hs_indicator_set(0xFF, (RGB){0x00, 0x6E, 0x00}, 250, 1);
-            }
-        } break;
         case RL_MOD: {
             if (rgbrec_is_started()) {
 
@@ -748,7 +739,7 @@ void housekeeping_task_user(void) {
 
 #ifdef RGB_MATRIX_ENABLE
 
-#    ifdef WIRELESS_ENABLE
+#ifdef WIRELESS_ENABLE
 bool wls_rgb_indicator_reset        = false;
 uint32_t wls_rgb_indicator_timer    = 0x00;
 uint32_t wls_rgb_indicator_interval = 0;
