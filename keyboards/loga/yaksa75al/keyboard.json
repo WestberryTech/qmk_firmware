@@ -1,6 +1,6 @@
 {
     "manufacturer": "LOGA",
-    "keyboard_name": "Yaksa75AL",
+    "keyboard_name": "Yaksa75 AL",
     "maintainer": "kerlos",
     "bootloader": "wb32-dfu",
     "bootmagic": {
@@ -14,6 +14,7 @@
         }
     },
     "features": {
+        "bootmagic": true,
         "command": false,
         "console": false,
         "extrakey": true,

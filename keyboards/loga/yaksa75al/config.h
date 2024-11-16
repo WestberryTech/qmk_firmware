@@ -1,4 +1,5 @@
 // Copyright 2024 yangzheng20003 (@yangzheng20003)
+// Copyright 2024 keRLos (@keRLos)
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #pragma once
@@ -17,10 +18,10 @@
 #define MM_BT_DEF_PIN                       C14
 #define MM_2G4_DEF_PIN                      C15
 
-#define MD_BT1_NAME                         "Yaksa75AL"
-#define MD_BT2_NAME                         "Yaksa75AL"
-#define MD_BT3_NAME                         "Yaksa75AL"
-#define MD_DONGLE_PRODUCT                   "Yaksa75AL"
+#define MD_BT1_NAME                         "Yaksa75 AL"
+#define MD_BT2_NAME                         "Yaksa75 AL"
+#define MD_BT3_NAME                         "Yaksa75 AL"
+#define MD_DONGLE_PRODUCT                   "Yaksa75 AL"
 
 /* Device Connection RGB Indicator Light Index And Color */
 #define HS_RGB_BLINK_INDEX_BT1              42
@@ -31,13 +32,13 @@
 #define HS_LBACK_COLOR_BT1                  RGB_BLUE
 #define HS_LBACK_COLOR_BT2                  RGB_BLUE
 #define HS_LBACK_COLOR_BT3                  RGB_BLUE
-#define HS_LBACK_COLOR_2G4                  RGB_RED
+#define HS_LBACK_COLOR_2G4                  0x00, 0xFF, 0x00
 #define HS_LBACK_COLOR_USB                  RGB_GREEN
 
 #define HS_PAIR_COLOR_BT1                   RGB_BLUE
 #define HS_PAIR_COLOR_BT2                   RGB_BLUE
 #define HS_PAIR_COLOR_BT3                   RGB_BLUE
-#define HS_PAIR_COLOR_2G4                   RGB_RED
+#define HS_PAIR_COLOR_2G4                   0x00, 0xFF, 0x00
 
 /* Battery */
 #define BATTERY_CAPACITY_LOW                15
@@ -45,7 +46,7 @@
 #define RGB_MATRIX_BAT_INDEX_MAP            {15, 16, 17, 18, 19, 20, 21, 22, 23, 24}
 
 /* Status Indicator Lamp */
-#define HS_MATRIX_BLINK_INDEX_BAT           2
+#define HS_MATRIX_BLINK_INDEX_BAT           76
 #define HS_RGB_INDEX_CAPS                   0
 #define HS_RGB_INDEX_WIN_LOCK               0
 #define HS_RGB_BLINK_INDEX_VAI              0
