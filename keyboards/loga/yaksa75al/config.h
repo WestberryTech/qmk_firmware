@@ -42,7 +42,7 @@
 /* Battery */
 #define BATTERY_CAPACITY_LOW                15
 #define BATTERY_CAPACITY_STOP               0
-#define RGB_MATRIX_BAT_INDEX_MAP            {23, 24, 25, 26, 27, 28, 29, 30, 31, 32}
+#define RGB_MATRIX_BAT_INDEX_MAP            {16, 17, 18, 19, 20, 21, 22, 23, 24, 25}
 
 /* Status Indicator Lamp */
 #define HS_MATRIX_BLINK_INDEX_BAT           2
