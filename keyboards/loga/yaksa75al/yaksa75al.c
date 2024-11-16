@@ -2,13 +2,9 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #include QMK_KEYBOARD_H
-#include "wls/wls.c"
+#include "wls/wls.h"
 #include "rgb_record/rgb_record.h"
 #include "rgb_record/rgb_rgblight.h"
-
-//#include "../../../quantum/deferred_exec.h"
-//#include "../../../quantum/rgblight/rgblight.h"
-//#include "../../../quantum/rgb_matrix/rgb_matrix.h"
 
 #ifdef WIRELESS_ENABLE
 #    include "wireless.h"

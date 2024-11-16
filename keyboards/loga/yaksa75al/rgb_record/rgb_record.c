@@ -43,7 +43,7 @@ static rgbrec_info_t rgbrec_info = {
 };
 
 static uint8_t rgbrec_buffer[MATRIX_ROWS * MATRIX_COLS * 2];
-extern const uint16_t PROGMEM rgbrec_default_effects[RGBREC_CHANNEL_NUM][MATRIX_ROWS][MATRIX_COLS];
+const uint16_t PROGMEM rgbrec_default_effects[RGBREC_CHANNEL_NUM][MATRIX_ROWS][MATRIX_COLS];
 
 static bool find_matrix_row_col(uint8_t index, uint8_t *row, uint8_t *col) {
     uint8_t i, j;
