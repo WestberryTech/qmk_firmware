@@ -52,8 +52,8 @@
 #define HS_RGB_BLINK_INDEX_VAD              1
 #define HS_RGB_BLINK_INDEX_SPI              2
 
-#define HS_RGB_BLINK_INDEX_WIN              54
-#define HS_RGB_BLINK_INDEX_MAC              53
+#define HS_RGB_BLINK_INDEX_WIN              45
+#define HS_RGB_BLINK_INDEX_MAC              46
 
 /* UART */
 #define SERIAL_DRIVER                       SD3
