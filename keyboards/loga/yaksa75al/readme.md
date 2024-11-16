@@ -1,12 +1,10 @@
-# LOGA YAKSA 75AL : Amaterasu & Tsukuyomi 
+# LOGA Yaksa 75AL Aluminium : Amaterasu & Tsukuyomi
 
 | Amateratsu version | Tsukuyomi version |
 :-------------------------:|:-------------------------:
 ![Amateratsu](https://i.imgur.com/Pipn91o.jpeg) | ![Tsukuyomi](https://i.imgur.com/nifm9Ga.jpeg)
 
-The YAKSA Whale 75 is a 75% keyboard designed by
-
-*A short description of the keyboard/project*
+Yaksa 75 Aluminium is a 75% keyboard designed by LOGA
 
 * Keyboard Maintainer: [keRLos](https://github.com/kerlos)
 * Hardware Availability: [LOGA](https://logaworld.com)
@@ -25,5 +23,5 @@ See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_to
 
 Enter the bootloader in 2 ways:
 
-* **Bootmagic reset**: Hold down the key at (0,0) in the matrix (usually the top left key or Escape) and plug in the keyboard
-* **Keycode in layout**: fn+right shift+esc will reset the board to bootloader mode
+* **Bootmagic reset**: Hold down esc+space and plug in the keyboard
+* **Keycode in layout**: Press fn+right_shift+esc while keyboard is plugged

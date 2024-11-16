@@ -3,16 +3,6 @@
     "keyboard_name": "Yaksa75 AL",
     "maintainer": "kerlos",
     "bootloader": "wb32-dfu",
-    "bootmagic": {
-        "matrix": [0, 0]
-    },
-    "eeprom": {
-        "driver": "wear_leveling",
-        "wear_leveling": {
-            "backing_size": 4096,
-            "driver": "spi_flash"
-        }
-    },
     "features": {
         "bootmagic": true,
         "command": false,
@@ -22,9 +12,9 @@
         "nkro": true,
         "rgb_matrix": true,
         "deferred_exec": true,
-        "rgblight": true,
         "encoder": true
     },
+    "debounce": 1,
     "diode_direction": "ROW2COL",
     "encoder": {
         "rotary": [
@@ -52,28 +42,10 @@
             "key": "KC_2G4"
         },
         {
-            "key": "RP_P0"
-        },
-        {
-            "key": "RP_P1"
-        },
-        {
-            "key": "RP_P2"
-        },
-        {
-            "key": "RP_END"
-        },
-        {
-            "key": "RL_MOD"
+            "key": "CHK_BAT"
         },
         {
             "key": "HS_BATQ"
-        },
-        {
-            "key": "KC_TEST"
-        },
-        {
-            "key": "BT_TEST"
         }
     ],
     "processor": "WB32FQ95",
@@ -216,24 +188,6 @@
             "speed" :204
         },
         "sleep": true
-    },
-    "rgblight": {
-        "animations": {
-            "alternatin":true,
-            "breathing": true,
-            "christmas":true,
-            "knight":true,
-            "rainbow_mood": true,
-            "rainbow_swirl": true,
-            "rgb_test": true,
-            "snake": true,
-            "static_gradient": true,
-            "twinkle": true
-        },
-        "default": {
-            "animation": "rainbow_swirl",
-            "val": 60
-        }
     },
     "url": "https://www.logaworld.com/",
     "usb": {
